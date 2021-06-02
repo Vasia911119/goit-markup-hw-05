@@ -210,6 +210,7 @@ img {
   height: 100%;
   z-index: 100;
   background-color: rgba(0, 0, 0, 0.2);
+  transition-property: opacity, visibility;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
