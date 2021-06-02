@@ -123,11 +123,11 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: color 250ms var(--timing-func);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--accent-color);
-  transition: color 250ms var(--timing-func);
 }
 .site-nav .link.current {
   position: relative;
@@ -156,11 +156,11 @@ img {
 .nav-icon {
   fill: currentColor;
   margin-right: 10px;
+  transition: fill 250ms var(--timing-func);
 }
 
 .nav-icon:hover {
   fill: var(--accent-color);
-  transition: fill 250ms var(--timing-func);
 }
 .contacts .link {
   padding-top: 32px;
@@ -172,11 +172,11 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  transition: color 250ms var(--timing-func);
 }
 .contacts .link:hover,
 .contacts .link:focus {
   color: var(--accent-color);
-  transition: color 250ms var(--timing-func);
 }
 /* Site hero */
 .hero {
@@ -425,22 +425,22 @@ img {
 
 .icon-team-item {
   background-color: var(--primary-background-color);
+  transition: background-color 250ms var(--timing-func);
 }
 
 .icon-team-item:hover,
 .icon-team-item:focus {
   background-color: var(--accent-color);
-  transition: background-color 250ms var(--timing-func);
 }
 
 .social-icon {
   fill: var(--icons-border-color);
+  transition: fill 250ms var(--timing-func);
 }
 
 .icon-team-item:hover .social-icon,
 .icon-team-item:focus .social-icon {
   fill: var(--primary-background-color);
-  transition: fill 250ms var(--timing-func);
 }
 
 /* Button */
@@ -459,11 +459,12 @@ img {
   box-shadow: 0px 4px 4px var(--shadow-hero-button);
 
   cursor: pointer;
+
+  transition: background-color 250ms var(--timing-func);
 }
 .button-hero:hover,
 .button-hero:focus {
   background-color: var(--button-hero-accent-background-color);
-  transition: background-color 250ms var(--timing-func);
 }
 .buttons {
   display: flex;
@@ -482,15 +483,16 @@ img {
   line-height: 1.62;
   text-decoration: none;
   cursor: pointer;
+
+  transition: color 250ms var(--timing-func),
+    background-color 250ms var(--timing-func),
+    box-shadow 250ms var(--timing-func);
 }
 .button:hover,
 .button:focus {
   color: var(--button-accent-text-color);
   background-color: var(--button-accent-background-color);
   box-shadow: var(--shadow-button-accent);
-  transition: color 250ms var(--timing-func),
-    background-color 250ms var(--timing-func),
-    box-shadow 250ms var(--timing-func);
 }
 .buttons .item + .item {
   margin-left: 8px;
@@ -517,22 +519,22 @@ img {
   border: 1px solid var(--icons-border-color);
   box-sizing: border-box;
   border-radius: 4px;
+  transition: border-color 250ms var(--timing-func);
 }
 
 .client-link:hover,
 .client-link:focus {
   border-color: var(--accent-color);
-  transition: border-color 250ms var(--timing-func);
 }
 
 .client-icon {
   fill: var(--icons-border-color);
+  transition: fill 250ms var(--timing-func);
 }
 
 .client-link:hover .client-icon,
 .client-link:focus .client-icon {
   fill: var(--accent-color);
-  transition: fill 250ms var(--timing-func);
 }
 /* Portfolio */
 .section.portfolio-all {
@@ -559,12 +561,12 @@ img {
   margin-top: var(--card-set-gap);
   margin-left: var(--card-set-gap);
   overflow: hidden;
+  transition: box-shadow 250ms var(--timing-func);
 }
 
 .portfolio .item:hover,
 .portfolio .item:focus {
   box-shadow: var(--shadow-portfolio-item);
-  transition: box-shadow 250ms var(--timing-func);
 }
 
 .portfolio .link {
@@ -582,7 +584,7 @@ img {
   overflow: auto;
 
   transform: translatey(100%);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 250ms var(--timing-func);
 
   margin: 0;
   padding: 63px 24px;
@@ -649,11 +651,12 @@ img {
   color: var(--contacts-footer-text-color);
 
   text-decoration: none;
+
+  transition: color 250ms var(--timing-func);
 }
 .contacts .link-footer:hover,
 .contacts .link-footer:focus {
   color: var(--accent-color);
-  transition: color 250ms var(--timing-func);
 }
 .welcome-text {
   font-weight: 700;
@@ -677,12 +680,12 @@ img {
 
 .icon-footer-link {
   background-color: var(--icons-bacground-footer);
+  transition: background-color 250ms var(--timing-func);
 }
 
 .icon-footer-link:hover,
 .icon-footer-link:focus {
   background-color: var(--accent-color);
-  transition: background-color 250ms var(--timing-func);
 }
 
 .social-footer-icon {
