@@ -600,7 +600,6 @@ img {
 .portfolio .link:hover .portfolio-about,
 .portfolio .link:focus .portfolio-about {
   transform: translatey(0);
-  transition: transform 250ms var(--timing-func);
 }
 
 .portfolio .description {
